@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnderDev - Desenvolvedor Web</title>
+    <meta name="description" content="André Judiao (AnderDev) - Desenvolvedor Web especializado em Back-end com experiência em Front-end">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     Cabeçalho Fixo 
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <span class="logo-text">AnderDev</span>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">Sobre</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Habilidades</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projetos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contato</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main"> 
+        <section class="home section" id="home">
+            <canvas id="particles-canvas"></canvas>
+            <div class="home__container container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        Olá, sou <span class="text-gradient">André Judiao</span><br>
+                        <span class="home__subtitle">(AnderDev)</span>
+                    </h1>
+                    <p class="home__description">
+                        Desenvolvedor Web apaixonado por <span class="highlight">Back-end</span> 
+                        e experiente em <span class="highlight">Front-end</span>
+                    </p>
+                    <a href="#projects" class="btn btn-primary">
+                        Ver Projetos
+                        <span class="btn__icon">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">Sobre Mim</h2>
+                <div class="about__container">
+                    <div class="about__img">
+                        <img src="img.png" alt="André Judiao" class="about__photo">
+                    </div>
+                    <div class="about__content">
+                        <p class="about__text">
+                            Sou um desenvolvedor web com uma paixão especial pelo <strong>back-end</strong>, 
+                            onde posso mergulhar na lógica complexa e arquitetura de sistemas. Embora tenha 
+                            experiência sólida em front-end, é no servidor que me sinto mais à vontade.
+                        </p>
+                        <p class="about__text">
+                            Como um verdadeiro <strong>nerd/geek</strong>, adoro explorar novas tecnologias, 
+                            resolver problemas complexos e criar soluções elegantes. Acredito que código 
+                        </p>
+                        <p class="about__text">
+                            limpo e bem estruturado é a base de qualquer projeto de sucesso.
+                            Minha jornada começou com curiosidade sobre como as coisas funcionam "por trás 
+                            dos panos", e hoje transformo ideias em realidade através do código.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Habilidades</h2>
+                <div class="skills__container">
+                    <div class="skills__content">
+                        <div class="skills__group">
+                            <h3 class="skills__subtitle">Front-end</h3>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">HTML5</span>
+                                    <span class="skills__level">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">CSS3</span>
+                                    <span class="skills__level">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">JavaScript</span>
+                                    <span class="skills__level">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">Bootstrap</span>
+                                    <span class="skills__level">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">Tailwind CSS</span>
+                                    <span class="skills__level">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <h3 class="skills__subtitle">Back-end</h3>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">PHP</span>
+                                    <span class="skills__level">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">Node.js</span>
+                                    <span class="skills__level">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projetos</h2>
+                <div class="projects__container">
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="img/stand-cars.png" alt="E-commerce API">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">AutoAI Motors</h3>
+                            <p class="project__description">                                
+                            Site estático que mostra uma vitrine de veículos, recomendações simples por questionário e uma secção de notícias.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="https://github.com/DevAndreOficial/stand-cars" target="_blank" class="btn btn-secondary">Ver Código</a>
+                                <a href="https://devandreoficial.github.io/stand-cars/" target="_blank" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/placeholder.svg?height=200&width=300&text=Task+Manager" alt="Task Manager">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Task Manager</h3>
+                            <p class="project__description">
+                                Sistema de gerenciamento de tarefas com interface moderna, 
+                                drag & drop e sincronização em tempo real.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn-secondary">Ver Código</a>
+                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/placeholder.svg?height=200&width=300&text=Blog+CMS" alt="Blog CMS">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Blog CMS</h3>
+                            <p class="project__description">
+                                Sistema de gerenciamento de conteúdo para blogs com 
+                                editor WYSIWYG e sistema de comentários.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn-secondary">Ver Código</a>
+                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/placeholder.svg?height=200&width=300&text=Weather+App" alt="Weather App">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Weather App</h3>
+                            <p class="project__description">
+                                Aplicação de previsão do tempo com geolocalização, 
+                                gráficos interativos e design responsivo.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">API</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn-secondary">Ver Código</a>
+                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/placeholder.svg?height=200&width=300&text=Portfolio+Site" alt="Portfolio Site">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Portfolio Site</h3>
+                            <p class="project__description">
+                                Site portfólio responsivo com animações CSS, 
+                                tema escuro/claro e otimização SEO.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn-secondary">Ver Código</a>
+                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/placeholder.svg?height=200&width=300&text=Chat+App" alt="Chat App">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Chat App</h3>
+                            <p class="project__description">
+                                Aplicação de chat em tempo real com salas privadas, 
+                                emojis e notificações push.
+                            </p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">WebSocket</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn-secondary">Ver Código</a>
+                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+         Seção Contato 
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Contato</h2>
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <h3 class="contact__subtitle">Vamos trabalhar juntos!</h3>
+                        <p class="contact__description">
+                            Tem um projeto em mente? Entre em contato comigo e vamos 
+                            transformar suas ideias em realidade.
+                        </p>
+                        <div class="contact__info">
+                            <div class="contact__social">
+                                <a href="https://linkedin.com/in/andrejudiao" class="social__link" target="_blank">
+                                    <span class="social__icon">💼</span>
+                                    LinkedIn
+                                </a>
+                                <a href="https://github.com/anderdev" class="social__link" target="_blank">
+                                    <span class="social__icon">🐱</span>
+                                    GitHub
+                                </a>
+                                <a href="mailto:andre@anderdev.com" class="social__link">
+                                    <span class="social__icon">📧</span>
+                                    Email
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" id="name" name="name" class="form__input" placeholder=" " required>
+                            <label for="name" class="form__label">Nome</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" id="email" name="email" class="form__input" placeholder=" " required>
+                            <label for="email" class="form__label">Email</label>
+                        </div>
+                        <div class="form__group">
+                            <textarea id="message" name="message" class="form__input form__textarea" placeholder=" " required></textarea>
+                            <label for="message" class="form__label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Enviar Mensagem
+                            <span class="btn__icon">✈️</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     Rodapé 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p class="footer__copy">
+                        © 2024 André Judiao (AnderDev). Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="footer__links">
+                    <a href="#home" class="footer__link">Home</a>
+                    <a href="#about" class="footer__link">Sobre</a>
+                    <a href="#skills" class="footer__link">Habilidades</a>
+                    <a href="#projects" class="footer__link">Projetos</a>
+                    <a href="#contact" class="footer__link">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
