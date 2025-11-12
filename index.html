@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnderDev - Desenvolvedor Web</title>
-    <meta name="description" content="André Judiao (AnderDev) - Desenvolvedor Web especializado em Back-end com experiência em Front-end">
+    <meta name="description" content="ANDRE JUDIAO (AnderDev) - Desenvolvedor Web especializado em Back-end com experiência em Front-end">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     Cabeçalho Fixo 
     <header class="header" id="header">
         <nav class="nav">
             <div class="nav__logo">
@@ -48,7 +47,7 @@
             <div class="home__container container">
                 <div class="home__content">
                     <h1 class="home__title">
-                        Olá, sou <span class="text-gradient">André Judiao</span><br>
+                        Olá, sou <br> <span class="text-gradient">ANDRE JUDIAO</span><br>
                         <span class="home__subtitle">(AnderDev)</span>
                     </h1>
                     <p class="home__description">
@@ -67,7 +66,7 @@
                 <h2 class="section__title">Sobre Mim</h2>
                 <div class="about__container">
                     <div class="about__img">
-                        <img src="img.png" alt="André Judiao" class="about__photo">
+                        <img src="img/img.png" alt="ANDRE JUDIAO" class="about__photo">
                     </div>
                     <div class="about__content">
                         <p class="about__text">
@@ -122,6 +121,16 @@
                                     <div class="skills__percentage" data-width="80"></div>
                                 </div>
                             </div>
+
+                            <div class="skills__item">
+                                <div class="skills__info">
+                                    <span class="skills__name">React.js</span>
+                                    <span class="skills__level">40%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage" data-width="80"></div>
+                                </div>
+                            </div>
                             <div class="skills__item">
                                 <div class="skills__info">
                                     <span class="skills__name">Bootstrap</span>
@@ -155,7 +164,7 @@
                             </div>
                             <div class="skills__item">
                                 <div class="skills__info">
-                                    <span class="skills__name">Node.js</span>
+                                    <span class="skills__name">Node.js, Express.js</span>
                                     <span class="skills__level">80%</span>
                                 </div>
                                 <div class="skills__bar">
@@ -194,118 +203,48 @@
 
                     <article class="project__card">
                         <div class="project__image">
-                            <img src="/placeholder.svg?height=200&width=300&text=Task+Manager" alt="Task Manager">
+                            <img src="img/auto-eline-v-react.png" alt="Task Manager">
                         </div>
                         <div class="project__content">
-                            <h3 class="project__title">Task Manager</h3>
+                            <h3 class="project__title">AutoElite versão React</h3>
                             <p class="project__description">
-                                Sistema de gerenciamento de tarefas com interface moderna, 
-                                drag & drop e sincronização em tempo real.
+                                AutoElite é uma empresa fictícia de venda de automóveis que oferece uma plataforma web moderna e intuitiva, permitindo pesquisar, comparar e reservar veículos. O sistema integra inteligência artificial (ChatGPT)...</p>
+                            <div class="project__technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="https://github.com/DevAndreOficial/AutoElite" target="_blank" class="btn btn-secondary">Ver Código</a>
+                                <a href="https://690e3c9410ffe50a544ad10b--gilded-faun-cf1340.netlify.app/" target="_blank" class="btn btn-primary">Ver Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="img/website-cfitel.png" alt="Task Manager">
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Website-cfitel</h3>
+                            <p class="project__description">
+                                CFITEL é um centro de formação dedicado ao desenvolvimento profissional e técnico de estudantes e trabalhadores. O site tem como objetivo divulgar cursos, formações e eventos promovidos pelo centro...
                             </p>
                             <div class="project__technologies">
-                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">HTML</span>
                                 <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">CSS</span>
                             </div>
                             <div class="project__buttons">
-                                <a href="#" class="btn btn-secondary">Ver Código</a>
-                                <a href="#" class="btn btn-primary">Ver Demo</a>
+                                <a href="https://github.com/DevAndreOficial/website-cfitel" target="_blank" class="btn btn-secondary">Ver Código</a>
+                                <a href="https://devandreoficial.github.io/website-cfitel/" target="_blank" class="btn btn-primary">Ver Demo</a>
                             </div>
                         </div>
                     </article>
 
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=200&width=300&text=Blog+CMS" alt="Blog CMS">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Blog CMS</h3>
-                            <p class="project__description">
-                                Sistema de gerenciamento de conteúdo para blogs com 
-                                editor WYSIWYG e sistema de comentários.
-                            </p>
-                            <div class="project__technologies">
-                                <span class="tech-tag">PHP</span>
-                                <span class="tech-tag">Bootstrap</span>
-                                <span class="tech-tag">MySQL</span>
-                            </div>
-                            <div class="project__buttons">
-                                <a href="#" class="btn btn-secondary">Ver Código</a>
-                                <a href="#" class="btn btn-primary">Ver Demo</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=200&width=300&text=Weather+App" alt="Weather App">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Weather App</h3>
-                            <p class="project__description">
-                                Aplicação de previsão do tempo com geolocalização, 
-                                gráficos interativos e design responsivo.
-                            </p>
-                            <div class="project__technologies">
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">CSS3</span>
-                                <span class="tech-tag">API</span>
-                            </div>
-                            <div class="project__buttons">
-                                <a href="#" class="btn btn-secondary">Ver Código</a>
-                                <a href="#" class="btn btn-primary">Ver Demo</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=200&width=300&text=Portfolio+Site" alt="Portfolio Site">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Portfolio Site</h3>
-                            <p class="project__description">
-                                Site portfólio responsivo com animações CSS, 
-                                tema escuro/claro e otimização SEO.
-                            </p>
-                            <div class="project__technologies">
-                                <span class="tech-tag">HTML5</span>
-                                <span class="tech-tag">CSS3</span>
-                                <span class="tech-tag">JavaScript</span>
-                            </div>
-                            <div class="project__buttons">
-                                <a href="#" class="btn btn-secondary">Ver Código</a>
-                                <a href="#" class="btn btn-primary">Ver Demo</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=200&width=300&text=Chat+App" alt="Chat App">
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Chat App</h3>
-                            <p class="project__description">
-                                Aplicação de chat em tempo real com salas privadas, 
-                                emojis e notificações push.
-                            </p>
-                            <div class="project__technologies">
-                                <span class="tech-tag">Java</span>
-                                <span class="tech-tag">WebSocket</span>
-                                <span class="tech-tag">Tailwind</span>
-                            </div>
-                            <div class="project__buttons">
-                                <a href="#" class="btn btn-secondary">Ver Código</a>
-                                <a href="#" class="btn btn-primary">Ver Demo</a>
-                            </div>
-                        </div>
-                    </article>
                 </div>
             </div>
         </section>
 
-         Seção Contato 
         <section class="contact section" id="contact">
             <div class="container">
                 <h2 class="section__title">Contato</h2>
@@ -322,7 +261,7 @@
                                     <span class="social__icon">💼</span>
                                     LinkedIn
                                 </a>
-                                <a href="https://github.com/anderdev" class="social__link" target="_blank">
+                                <a href="https://github.com/DevAndreOficial" class="social__link" target="_blank">
                                     <span class="social__icon">🐱</span>
                                     GitHub
                                 </a>
@@ -356,13 +295,12 @@
         </section>
     </main>
 
-     Rodapé 
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__info">
                     <p class="footer__copy">
-                        © 2024 André Judiao (AnderDev). Todos os direitos reservados.
+                        © 2024 ANDRE JUDIAO (AnderDev). Todos os direitos reservados.
                     </p>
                 </div>
                 <div class="footer__links">
